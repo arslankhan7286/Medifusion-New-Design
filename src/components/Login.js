@@ -75,7 +75,7 @@ class Login extends Component {
           token = response.data;
         })
         .catch(error => {
-          console.log("Error : ", error);
+          console.log("Error in Login : ", error);
           if (error.response) {
             if (error.response.status) {
               if (error.response.status == 404) {

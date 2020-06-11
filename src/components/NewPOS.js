@@ -56,7 +56,7 @@ class NewPOS extends Component {
   }
 
   onKeyDown(keyName, e, handle) {
-    console.log("test:onKeyDown", keyName, e, handle);
+    console.log("test:onKeyDown..............", keyName, e, handle);
 
     if (keyName == "alt+s") {
       // alert("save key")
@@ -70,7 +70,7 @@ class NewPOS extends Component {
   }
 
   onKeyUp(keyName, e, handle) {
-    console.log("test:onKeyUp", e, handle);
+    console.log("test:onKeyUp.............", e, handle);
     if (e) {
       console.log("event has been called", e);
     }
