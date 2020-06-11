@@ -1,0 +1,332 @@
+.readonly {
+  background-color: #dbd7d8;
+  border: 1px solid #000;
+  padding-left: 5px;
+}
+.Schedularselect {
+  height: 30px;
+}
+.time {
+  width: 72%;
+  height: 30px;
+}
+.date {
+  widows: 72%;
+  height: 30px;
+}
+.Schedularcolor {
+  height: 30px;
+  width: 30px;
+  display: block;
+  float: right;
+}
+.Schedulartextarea {
+  min-height: 50px;
+  max-height: 500px;
+  height: auto;
+  width: 100%;
+}
+.input {
+  width: 45%;
+}
+.links {
+  line-height: 35px;
+}
+.link {
+  color: #46778a;
+}
+.alert span {
+  background: url(../../assets/triangle.png) no-repeat left;
+  background-size: contain;
+  padding: 15px;
+}
+.alert {
+  /* background: #f3eeef; */
+  background: rgb(241, 251, 255);
+}
+.w-50 {
+  width: 35px !important;
+  height: 30px !important;
+}
+span.ml-1 {
+  margin-left: 10px !important;
+}
+.Schedularsearch {
+  border: 1px solid #000;
+  background: none;
+}
+.searchnew {
+  border: 1px solid #000;
+  background: url(../../assets/search.png) no-repeat right;
+  background-size: contain;
+}
+.Schedularcheck {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  top: 5px;
+  margin-left: 5px;
+  -webkit-appearance: initial;
+  appearance: initial;
+  border: 1px solid black;
+}
+
+.checked input[type="checkbox"]:checked:after {
+  content: url(../../../images/icons/cross-checked.png);
+  /* color: #d8526b; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.fa-plus,
+.fa-search,
+.fa-pencil-alt {
+  font-size: 24px;
+  position: relative;
+  top: 3px;
+  margin-left: 5px;
+}
+.fa-plus {
+  color: #518197;
+}
+/* .fa-plus {  /*FUTURE BACK UP*//*
+  color: #d8526b;
+} */
+.fa-search {
+  color: #56849a;
+}
+.fa-pencil-alt {
+  font-size: 20px;
+  color: #518197;
+}
+
+.schedularLabel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  float: left;
+}
+
+.save:hover {
+  background-color: rgb(4, 84, 116);
+}
+
+.delete,
+.save {
+  transition: 0.3s ease;
+}
+
+.fas {
+  cursor: pointer;
+}
+
+
+#Schedulartextarea {
+  cursor: text;
+  padding-bottom: 10px;
+}
+
+#parentForm input,
+#parentForm div {
+border: none;
+outline: none;
+padding: 5px;
+}
+
+#parentForm input {width: 50px;}
+#parentForm div{width: 150px;}
+
+#Schedularforms,#SchedularPayments {
+  background-image: linear-gradient(#fdfdfd, #dadada);
+  padding: 5px;
+  border-radius: 5px;
+  width: auto;
+  margin: 5px;
+  float: left;
+}
+
+.SchedularadvSearch {
+  margin-left: 8px;
+  margin-bottom: 5px;
+  /* height: 20px; */
+  width: auto;
+}
+
+/* Media Quries */
+@media screen and (min-width: 992px) and (max-width: 1243px) {
+  .date {
+    width: 74%;
+  }
+  .fa-plus {
+    font-size: 18px;
+  }
+  .fa-pencil-alt {
+    font-size: 18px;
+  }
+  .searchnew {
+    width: 74%;
+  }
+  .Schedularsearch {
+    width: 74%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .tab-pane label {
+    text-align: left !important;
+  }
+  .searchnew {
+    width: 93%;
+    margin-bottom: 10px;
+  }
+  .Schedularsearch {
+    width: 93%;
+    margin-bottom: 10px;
+  }
+  .date {
+    width: 100%;
+  }
+  .duration {
+    width: 60% !important;
+  }
+  .fa-plus {
+    font-size: 15px;
+  }
+  .fa-pencil-alt {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .searchnew {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .Schedularsearch {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .date {
+    width: 100%;
+  }
+  .fa-plus {
+    font-size: 20px;
+  }
+  .fa-pencil-alt {
+    font-size: 15px;
+  }
+  /* .Schedularselect{width:100%!important;}
+    .duration{width:100%!important} */
+}
+@media screen and (min-width: 0px) and (max-width: 685px) {
+  .searchnew {
+    width: 100%;
+  }
+  .Schedularsearch {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .searchnew {
+    width: 100%;
+  }
+  .Schedularsearch {
+    width: 100%;
+  }
+  .fa-plus {
+    font-size: 25px;
+  }
+  .fa-pencil-alt {
+    font-size: 20px;
+  }
+  .Schedularselect {
+    width: 100% !important;
+  }
+  .duration {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .searchnew {
+    width: 100%;
+  }
+  .Schedularsearch {
+    width: 100%;
+  }
+}
+
+/********************************** AUTOCOMPLETE CSS *************************/
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+#SchedularpatientID {
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 15px;
+  width: 100% !important;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.autocomplete-items div,
+.autocomplete-items span {
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover,
+.autocomplete-items span:hover {
+  background-color: #e9e9e9;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: #e9e9e9 !important;
+}
+
+#Schedularcross {
+  color: #858585;
+  font-size: 16px;
+  margin-left: -20px;
+  margin-right: 9px;
+  cursor: pointer;
+  vertical-align: super;
+}
+
+#SchedularcrossTable {
+  color: #D8526B;
+  font-size: 16px;
+  cursor: pointer;
+  vertical-align: super;
+  margin: 0;
+}
+
+.Schedularsearch {
+  font-weight: bold;
+  position: absolute;
+  padding: 15px;
+  margin-left: -35px;
+  background: url(../../assets/searchicon.png) no-repeat right;
+  border: none;
+}

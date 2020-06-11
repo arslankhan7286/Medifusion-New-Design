@@ -1,0 +1,19 @@
+.FormTable {
+  height: 370px;
+  overflow-y: scroll;
+ }
+
+.FormTable .table .th1 .tr1 th {
+  border-right: none;
+  background-color: #c9edf2;
+  font-size: 14px;
+}
+
+.FormTable tr:hover{background:#9aaab1}
+.FormTable .table {height: "10px"; scroll-behavior: auto;}
+
+.CptTable tr:nth-child(1){background:#c0d6de}
+.CptTable {
+  height: 300px;
+  overflow-y: scroll;
+}

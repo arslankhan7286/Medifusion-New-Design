@@ -1,0 +1,11 @@
+.fa-plus{font-size: 28px;position: relative;top: 0px;color:#d8526b;margin-left:10px;}
+.fa-pencil-alt{font-size: 20px;position: relative;top: 0px;color:#5d899b;margin-left:5px;}
+.label{line-height: 32px;}
+.list{position:fixed; z-index: 999; background:#f1f1f1;width:15%;} 
+ul.suggestions li{
+    cursor: pointer !important;
+}
+
+ul.suggestions li:hover{
+    background-color: #F3EEEF;
+}

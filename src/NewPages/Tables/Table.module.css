@@ -1,0 +1,14 @@
+.table {width:100%;height: auto;}
+.tableHeadTname {color: white; padding-left: 20px;}
+.tableHead{padding:5px!important; vertical-align: baseline!important;font-size:13px; text-align: right;}
+.tableHeader{background-color: #989da9;}
+.tableHeadings {background-color: #BED6DF;}
+.tableHeadings td{padding:7px 0px 7px 10px!important;}
+
+
+.tableRow:nth-child(odd){background:#98AAB1!important}
+.tableRow:nth-child(even){background:#D0DADC!important}
+
+/* .tableRow:hover{background:#9aaab1!important} */
+
+.tableData{padding:7px 0px 7px 10px!important;font-size:13px; vertical-align: baseline!important;}

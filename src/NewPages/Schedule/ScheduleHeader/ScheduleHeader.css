@@ -1,0 +1,86 @@
+.Headerheader {
+  color: #03658c;
+  font-size: 17px;
+  margin-top: 20px;
+}
+.headerlog {
+  background: #8f8d8d;
+  color: #fff;
+  padding: 5px 15px;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.headerlog:hover {
+  background-color: rgb(114, 112, 112);
+}
+.fa-times {
+  font-size: 31px;
+  position: relative;
+  top: 5px;
+  color: #f27990;
+  margin-left: 15px;
+}
+.fas{
+  cursor: pointer;
+}
+
+.SchedularCross {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0 5px;
+}
+
+.schedularTab ul li.selected a{
+  background:#fff;
+  color:#3DA4D5!important;
+}
+
+.schedularTab ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  /* border-bottom: 1px solid #03658C; */
+}
+
+/* FUTURE BACKUP*/
+/*.Headerheader {
+  color: #03658c;
+  font-size: 17px;
+  margin-top: 20px;
+}
+.headerlog {
+  background: #8f8d8d;
+  color: #fff;
+  padding: 5px 15px;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.headerlog:hover {
+  background-color: rgb(114, 112, 112);
+}
+.fa-times {
+  font-size: 31px;
+  position: relative;
+  top: 5px;
+  color: #f27990;
+  margin-left: 15px;
+}
+.fas{
+  cursor: pointer;
+}
+
+.schedularTab ul li.selected a{
+  background:#d8526b;
+  color:#fff!important;
+}
+
+.schedularTab ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  border-bottom: 1px solid #d8526b;
+}*/

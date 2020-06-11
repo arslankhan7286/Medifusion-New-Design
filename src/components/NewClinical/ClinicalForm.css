@@ -1,0 +1,105 @@
+.ShowClinicalFormsTop {
+  background-color: #019cda;
+}
+
+.ShowClinicalFormsTop .Name {
+  color: white;
+  padding-left: 30px;
+}
+
+.ShowClinicalFormsTop .Type {
+  color: white;
+  position: absolute;
+  margin: 0px 46%;
+  left: 0;
+  right: 0;
+}
+
+.ShowClinicalFormsTop .heading {
+  position: absolute;
+  margin-right: 20px;
+  padding: 7px 15px;
+  right: 0;
+  border: none;
+  color: #019cda;
+  cursor: pointer;
+}
+
+.FormSubHeadingTable {
+  max-width: 1000px !important;
+  width: 1000px !important;
+}
+
+.ClinicalNotesForms {
+  position: absolute;
+  width: 80px;
+  padding: 5px;
+  right: 0;
+  color: #019cda;
+  border: none;
+  cursor: pointer;
+}
+
+.ShowClinicalFormsTop .Cancel {
+  margin-right: 80px;
+}
+.ShowClinicalFormsTop .Save {
+  margin-right: 174px;
+}
+.ShowClinicalFormsTop .Sign {
+  margin-right: 270px;
+}
+.ShowClinicalFormsTop .Heading {
+  position: absolute;
+  padding: 7px 15px;
+  right: 0;
+  border: none;
+  color: #019cda;
+  cursor: pointer;
+  margin-right: 370px;
+  width: auto;
+}
+
+.ShowClinicalFormsTop .print-btn {
+  position: absolute;
+  right: 0;
+  margin-top: 2px;
+  margin-right: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 96, 142, 0.5);
+  border-radius: 6px;
+  padding: 2px 8px;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
+  color: #00608e;
+  background-color: #ffffff;
+  float: right;
+}
+
+.ClinicalNotesFormNameType {
+  margin-left: 50px;
+}
+
+.ClinicalNotesFormNameType td {
+  color: white;
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.ClinicalNotesFormNameType tr {
+  border: none;
+}
+
+.SubHeadingEdit {
+  padding: 5px;
+  margin: 10px;
+}
+
+.lblChkBox input[type="checkbox"] + label:before {
+  background-color: white;
+}

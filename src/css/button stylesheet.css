@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.schedularbtn {
+  display: inline-flex;
+  height: 40px;
+  width: 110px;
+  border: 2px solid #1a6893;
+  margin-top: 20px;
+  color: #1a6893;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.schedularbtn-group-toggle .schedularbtn:not(:disabled):not(.disabled).active,
+.schedularbtn-group-toggle .schedularbtn:not(:disabled):not(.disabled):active,
+.show > .schedularbtn.dropdown-toggle {
+  color: #fff;
+  /* background-color: #d64f69; */ /* FUTURE BACKUP */
+  background-color: #1a6893;
+}
+
+.schedularbutton.active {
+  background-color: #396;
+}
+
+.schedulara {  
+  color: #1a6893;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.schedularbutton-3 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: white;
+}
+
+.schedularbutton-3 .schedulara {
+  position: relative;
+  transition: all 0.45s ease-Out;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.schedularcircle {
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #1a6893;
+  position: absolute;
+  transition: all 0.5s ease-Out;
+  top: 20px;
+  left: 70px;
+  color: #fff;
+}
+
+.schedularbutton-3:not(.active):hover .schedularcircle {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: -70px;
+  left: -70px;
+}
+
+.schedularbutton-3:hover .schedulara { 
+  color: #fff;
+}
+
+.schedularbutton-3.active .schedulara {
+  color: #fff;
+}
+
+.boxes {
+  margin: auto;
+  padding: 50px;
+  background: #484848;
+}
+
+/*Checkboxes styles*/
+
+.schedularinput[type="checkbox"] {
+  display: none;
+}
+
+.schedularinput[type="checkbox"] + label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  font: 14px/20px "Open Sans", Arial, sans-serif;
+  color: #1a6893;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.schedularinput[type="checkbox"] + label:last-child {
+  margin-bottom: 0;
+}
+
+.schedularinput[type="checkbox"] + label:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #1a6893;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.6;
+  -webkit-transition: all 0.12s, border-color 0.08s;
+  transition: all 0.12s, border-color 0.08s;
+}
+
+.schedularinput[type="checkbox"]:checked + label:before {
+  width: 10px;
+  top: -5px;
+  left: 5px;
+  border-radius: 0;
+  opacity: 1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.schedularbutton:active {
+  color: #039;
+  background-color: #396;
+}
+.schedularbutton.active {
+  background-color: #396;
+}
+
+.schedularbutton.active a {
+  color: #fff;
+}
+
+.schedularbutton-3:not(.active):hover .schedularcircle {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: -70px;
+  left: -70px;
+}
+
+.schedularabc {
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.schedularbtn-group {
+  float: right;
+}

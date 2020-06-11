@@ -1,0 +1,48 @@
+
+.link {
+
+
+    text-decoration: none;
+    color: #32799B;
+  /* color: #2C7A9C; */
+  display: inline;
+  size: 20px;
+  margin-left: 10px;
+  
+    
+}
+.accordion .header:after {
+  font-family: 'FontAwesome';  
+  content: "\f0d7";
+  float: left; 
+}
+.accordion .header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\f0da"; 
+}
+ul {
+  
+  padding-inline-start: 10px;
+  list-style: "none"
+  
+}
+.icon:hover:after {
+  content: "Signed";
+  display: block;
+  position: absolute;
+  border-radius: 5px;
+  padding: 5px;
+  color:white ;
+  margin-left: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+ 
+  background: #60A5DF;
+}
+
+.header{
+  line-height: 14px;
+  margin-top:0px!important;
+  float:left;
+  width:2%;
+}

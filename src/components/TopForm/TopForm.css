@@ -1,0 +1,120 @@
+body {
+  overflow-x: hidden;
+}
+.topform span {
+  font-size: 12px;
+  position: relative;
+}
+.topform .bg {
+  background: none;
+}
+.topform .span {
+  bottom: 0px;
+}
+.topform strong {
+  font-size: 12px;
+  color: #17799c;
+}
+.topform .fa-sort {
+  font-size: 20px;
+  color: #d8526b;
+  position: relative;
+  top: 2px;
+  position: relative;
+  animation: openInfo 1s infinite;
+}
+.topform .fa-sort:nth-child(2) {
+  position: relative;
+  top: 10px;
+}
+.topform img {
+  width: 100%;
+  position: relative;
+}
+.topform {
+  padding: 20px;
+}
+.topform .formButton {
+  font-size: 12px;
+  background: #58c5dd;
+  color: #17799c;
+  border: 0px;
+  padding: 5px 10px;
+  font-weight: bold;
+  position: relative;
+  animation: button 1s ease;
+}
+.topform .alert {
+  background: #f7e9ec;
+  padding: 10px;
+  border: 2px solid #e9bec6;
+  border-radius: 3px;
+}
+.topform .alert-button {
+  margin-top: 37px;
+}
+.topform .alert img {
+  width: 30px;
+  position: relative;
+  top: 0px;
+}
+.topform .alert .img {
+  width: 10%;
+  float: left;
+}
+.topform .alert span {
+  width: 90%;
+  color: #17799c;
+}
+.topform .img {
+  width: 20px;
+  top: 0px;
+}
+.topform .id {
+  color: #17799c;
+}
+.topform .alert-button i {
+  font-size: 15px;
+  color: #17799c;
+  margin-left: 3px;
+  top: 0px;
+}
+hr {
+  background: #037592;
+}
+
+/* Media Queries */
+@media screen and (min-width: 375px) and (max-width: 500px) {
+  .topform .alert .img {
+    width: 100%;
+  }
+  .topform .formButton:nth-child(3) {
+    margin-top: 5px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 375px) {
+  .topform .formButton:nth-child(2) {
+    margin-top: 5px;
+  }
+}
+
+/*Key Frames*/
+@keyframes button {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale();
+  }
+}
+@keyframes openInfo {
+  0% {
+    color: #17799c;
+  }
+  50% {
+    color: #58c5dd;
+  }
+  100% {
+    color: #d8526b;
+  }
+}

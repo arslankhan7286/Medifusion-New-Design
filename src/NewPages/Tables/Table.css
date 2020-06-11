@@ -1,0 +1,17 @@
+.SchedularAppointmentButtons{background:#6d8357;text-align: center;border:0px;padding:5px 50px;color:#fff;}
+.payment input:first-child{width:30px;margin-left:10px;background:#c0d6de;border:0px;padding-left:5px;}
+.payment select{background:#c0d6de;margin-left:5px;}
+.payment i{color:#d8526b;margin-left:5px;}
+.button{width:200px;margin-left:20px;}
+.button:nth-child(2){background:#dbd7d8;color:#000}
+.bil-button{padding:2px 10px; background: #dbd7d8;color:#000}
+/* .search-icon{background:url(../assets/searchicon.png)no-repeat right;background-color:#fff;} */
+.Schedularsave{background:#03658c;}
+.Schedularcancel {background:#989DA9;transition: 0.3s ease;}
+.Schedularcancel:hover {background:rgb(121, 125, 134);}
+.Schedularbuttons{margin-top: 10px;}
+.Schedulartablefields{height: 30px;}
+#ICDcode::-webkit-outer-spin-button,
+#ICDcode::-webkit-inner-spin-button {-webkit-appearance: none; margin: 0;}
+
+.Schedulardelete{background:#03658c;} /* DELETE IN FUTURE */

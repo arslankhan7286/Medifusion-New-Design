@@ -1,0 +1,33 @@
+.SaveButton {
+  border-radius: 10px;
+  border: 2px solid #186790;
+  color: #186790;
+  float: right;
+  padding: 2px;
+  width: 75px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.CancelButton {
+  border-radius: 10px;
+  border: 2px solid#F5788F;
+  color: #f5788f;
+  padding: 2px;
+  width: 75px;
+  float: right;
+  cursor: pointer;
+}
+
+.beforeResolve {
+  border: 2px solid #186790;
+  border-radius: 20px;
+  color: #186790;
+  cursor: pointer;
+}
+.afterResolve {
+  border: 2px solid #186790;
+  border-radius: 20px;
+  background-color: #186790;
+  color: white;
+  cursor: pointer;
+}

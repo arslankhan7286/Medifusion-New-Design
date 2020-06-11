@@ -1,0 +1,108 @@
+@media only screen and (max-width: 480px) {
+  .modal .modal-content {
+    position: "relative";
+    width: "40%";
+    max-width: "1000px";
+  }
+}
+
+.FormLabel {
+  width: 20%;
+  vertical-align: middle;
+  text-align: left;
+  display: inline-block;
+}
+.formfield {
+  width: 20%;
+  vertical-align: top;
+  text-align: left;
+  display: inline-block;
+}
+.FormInput {
+  width: 80%;
+  border: 2px solid #186790;
+  padding: 10px;
+  background-image: url("../../images//icons/AddpatientAlert/search.jpg");
+
+  /* background-image: url("../../images/icons/3rd-icon-white.png"); */
+  background-position: right center; /*Positioning*/
+  background-repeat: no-repeat;
+}
+/* .FormInput-webkit-outer-spin-button,
+.FormInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  color: transparent;
+  width: 40px;
+  
+} */
+.FormClandar {
+  width: 80%;
+  border: 2px solid #186790;
+  padding: 10px;
+
+  background-image: url("../../images/icons/AddpatientAlert/calender.jpg");
+
+  /* background-image: url("../../images/icons/3rd-icon-white.png"); */
+  background-position: right center; /*Positioning*/
+  background-repeat: no-repeat;
+}
+
+.FormClandar::-webkit-calendar-picker-indicator {
+  color: transparent;
+  width: 40px;
+}
+/* .FormClandar::-webkit-calendar-picker-indicator,
+.FormClandar::-webkit-inner-spin-button {
+  display: none;
+} */
+
+.FormIcon {
+  width: 15%;
+  border: 2px solid #186790;
+  padding: 12px;
+  background-color: #186790;
+  color: white;
+}
+.FormTextarea {
+  width: 80%;
+  border: 2px solid #186790;
+  padding: 10px;
+}
+.FormSelect {
+  width: 80%;
+  border: 2px solid #186790;
+  padding: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+
+  text-overflow: "";
+  background-image: url("../../images/icons/AddpatientAlert/down2.jpg");
+
+  /* background-image: url("../../images/icons/3rd-icon-white.png"); */
+  background-position: right center; /*Positioning*/
+  background-repeat: no-repeat;
+}
+/* .FormSelect ::-ms-expand {
+  display: none;
+} */
+.SaveButton {
+  border-radius: 10px;
+  border: 2px solid #186790;
+  color: #186790;
+  float: right;
+  padding: 2px;
+  margin-right: 20px;
+  width: 75px;
+  cursor: pointer;
+}
+.CancelButton {
+  border-radius: 10px;
+  border: 2px solid#F5788F;
+  color: #f5788f;
+  padding: 2px;
+  width: 75px;
+  float: right;
+  cursor: pointer;
+}

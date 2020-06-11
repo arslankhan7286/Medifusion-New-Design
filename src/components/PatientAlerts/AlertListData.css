@@ -1,0 +1,15 @@
+@media only screen and (max-width: 480px) {
+  .modal .modal-content {
+    position: "relative";
+    width: "40%";
+    max-width: "1000px";
+  }
+}
+
+.textArea {
+  height: "50px";
+  display: inline;
+  overflow: hidden;
+  width: "80%";
+  border: none;
+}
